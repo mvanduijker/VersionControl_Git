@@ -1,0 +1,31 @@
+{
+    "name": "mvanduijker/versioncontrol_git",
+    "description": "Provides OO interface to handle Git repository",
+    "type": "library",
+    "homepage": "https://github.com/mvanduijker/VersionControl_Git",
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Kousuke Ebihara",
+            "email": "ebihara@php.net"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mvanduijker/VersionControl_Git/issues",
+        "source": "https://github.com/mvanduijker/VersionControl_Git"
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "rsky/pear-core-min": "dev-master",
+        "pear/pear_exception": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "VersionControl_Git": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-trunk": "0.4.x-dev"
+        }
+    },
+    "include-path": [""]
+}
